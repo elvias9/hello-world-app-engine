@@ -28,7 +28,7 @@ resource "tls_self_signed_cert" "example" {
 }
 
 resource "google_compute_ssl_certificate" "example" {
-  name        = "cr-helloworld-cert"
+  name        = "appengine-cert"
   private_key = tls_private_key.example.private_key_pem
   certificate = tls_self_signed_cert.example.cert_pem
 }

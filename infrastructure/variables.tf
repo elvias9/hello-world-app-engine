@@ -1,6 +1,5 @@
 variable "project_id" {
   type    = string
-  default = "cr-lab-esicuro-1408230459"
 }
 
 variable "project_region" {
