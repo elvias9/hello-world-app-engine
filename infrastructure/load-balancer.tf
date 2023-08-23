@@ -37,7 +37,6 @@ module "app-engine-ext-lb" {
 
       groups = [
         {
-          # Your serverless service should have a NEG created that's referenced here.
           group = google_compute_region_network_endpoint_group.appengine_neg.id
         }
       ]

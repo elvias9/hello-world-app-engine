@@ -18,7 +18,6 @@ variable "app_ip_range" {
 }
 
 variable "project_roles" {
-  description = "List of IAM roles"
   type        = list(string)
   default = [
     "roles/iam.serviceAccountUser",

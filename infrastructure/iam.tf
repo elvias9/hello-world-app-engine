@@ -1,6 +1,4 @@
-######################################################################################
-# Add Roles to Cloud Build Default Service Account                                   #
-######################################################################################
+### Add Roles to Cloud Build Default Service Account                                   #
 
 data "google_project" "project_number" {
 }
